@@ -11,8 +11,8 @@
     "selenium-webdriver": "^4.0.0-beta.2"
   },
   "scripts": {
-    "test": "./node_modules/@cucumber/cucumber/bin/cucumber-js features",
-    "serve": "./node_modules/http-server/bin/http-server -p 8089 ./web"
+    "test": "cucumber-js features",
+    "serve": "http-server -p 8089 ./web"
   },
   "repository": {
     "type": "git",
